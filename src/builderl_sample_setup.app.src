@@ -1,0 +1,11 @@
+%% -*- erlang -*-
+{application, builderl_sample_setup,
+ [{description, "Example of an installation and configuration application"},
+  {vsn, "=VSN="},
+  {modules,
+   [
+    =MODULES=
+   ]},
+  {registered, []},
+  {applications, [kernel, stdlib]}
+ ]}.
